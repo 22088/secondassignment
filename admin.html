@@ -1,0 +1,28 @@
+<html>
+    <script>
+    function myfun(){
+        window.open("/assignment/addtrip.html")
+    }
+    function myfun2(){
+        window.open("/assignment/deletetrip.php")
+    }
+    </script>
+    <body>
+        <h1>
+            Hello Admin
+        </h1>
+        <br>
+        <form action="admin.php" method="POST">
+              
+            
+            <input type="submit" value="Display" name="display">
+        </form>
+        <form action="tripupdate.php" method="POST">
+                <input type="submit" value="Update" name="update">
+            </form>
+            <button onclick="myfun()">Add Trip</button>
+            <br>
+            <br>
+            <button onclick="myfun2()">Delete Trip</button>
+    </body>
+</html>
